@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Selector</title>
+    <style>
+        h2{
+            color: darkorchid;
+            text-align: center;
+        }
+        /* class has "." */
+        .highlight{
+            font-size: 25px;
+            font-weight: bold;
+            font-size: italic;
+            background-color: darksalmon;
+            opacity: .6;
+        }
+        /* id has "#" */
+        #mainPoint{
+            font-size: 20px;
+            font-weight: bold;
+            background-color: darkseagreen;
+            opacity: .7;
+        }
+        /* p and h1 elements */
+        p, h1{
+            color:teal; 
+            /* رنگ متنی که در این تگ نوشته شده */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1 (h2)</h2>
+    <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum
+        quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+    <p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit.</p>
+    <h2>Subheading 2 (h2)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam
+        alias
+        at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
+    <div>This is the main point of the entire article. So, attribute
+        <span id="mainPoint">id="mainPoint".</span> </div>
+</body>
+
+</html>
