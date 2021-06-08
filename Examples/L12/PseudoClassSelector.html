@@ -20,7 +20,29 @@
             text-align: center;
             margin-bottom: 10px;
         }
-        
+        /* وقتی موس روی این المنت بیاید رنگ بک گراند و رنگ متن طبق این کلاس تغییر میکند. */
+        a:hover,a:active{
+            background-color: chartreuse;
+            color: blue;
+        }
+        /* برای هر تگ لیست که درون تگ  */
+        /* header */
+        /* قرار دارد این کلاس را اجرا کن */
+        header li:nth-child(even)
+        {
+            font-style: italic;
+        }
+
+        header li:nth-child(odd)
+        {
+            background-color: burlywood;
+        }
+
+        section div:nth-child(4):hover{
+            background-color: cornflowerblue;
+            cursor: pointer;
+        }
+
     </style>
 </head>
 
